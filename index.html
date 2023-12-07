@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Ultimate Movie Database</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h3>Search Movie:</h3>
+        <input
+          type="text"
+          placeholder="Search Movie Title ..."
+          id="movie-search-box"
+          onkeyup="findMovies()"
+          onclick="findMovies()"
+        />
+      </div>
+
+      <div id="search-result-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
