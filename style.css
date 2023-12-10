@@ -1,3 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.dribbble.com/userupload/11846387/file/original-efa844ac9e34b37b5e6a90852fb47732.png?resize=2048x1536");
+    background-size: cover;
+}
+
+.search-bar p{
+    text-align: left;
+}
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333; 
+    margin-bottom: 10px; 
+  }
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+  .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-image: url("https://cdn.dribbble.com/userupload/11857997/file/original-ad94be22cef3a4ddb34ac3aa3e99d066.gif");
+    background-size: cover;
+}
+
+.search-item-info{
+    text-align: center;
+    background-color: #d6d1dbcc;
+}
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h3 {
+    color: #333;
+  }
+
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 50%;
+  }
+
 .disappear {
     display: hidden;
 }
+
+
+.search-bar {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(33 60 87);
+    /* text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px; */
+    background-color: #d6d1dbcc;
+}
+

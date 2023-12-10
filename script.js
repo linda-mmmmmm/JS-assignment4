@@ -30,8 +30,9 @@ async function loadMovies(keyword) {
             <img src = "${moviePoster}">
         </div>
         <div class = "search-item-info">
-            <h3>${movieTitle}</h3>
-            <p>${movieYear}</p>
+            <span>Click Poster to Find Related GIF From Tenor</span>
+            <h3>Title: ${movieTitle}</h3>
+            <p>Year: ${movieYear}</p>
         </div>
         `;
         searchResultContainer.appendChild(movieDiv);
@@ -87,6 +88,7 @@ async function loadGif(parentMovieDiv, movieTitle) {
       gifDiv.innerHTML = `
         <div class = "movie">
         <div class = "img">
+        <span>${movieTitle} related GIF:</span>
             <img src = "${imgUrl}">
         </div>
         `;
